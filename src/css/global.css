@@ -1,0 +1,56 @@
+:root{
+    /* Colores globales */
+    --header-color: rgb(11, 6, 43);
+    --header-highlight-background: #195791;
+    --header-highlight-color: white;
+    --bar-highlight-color: #97bbf1;
+    --global-bg-color: #f5f1f1;
+
+    /* Constantes */
+    --header-height: 80px;
+    --tablet-width: 720px;
+    --phone-width: 540px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+.expandir{
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    padding: 3px 15px;
+    cursor: context-menu;
+    transition: .3s;
+}
+
+.expandir:hover::after{
+    content: '';
+    margin: 0 auto;
+    animation-name: expandir;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--bar-highlight-color);
+}
+
+@keyframes expandir {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}

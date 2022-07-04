@@ -1,0 +1,68 @@
+@import url(./global.css);
+
+footer{
+    height: fit-content;
+    background-color: var(--header-color);
+    color: var(--header-highlight-color);
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+footer .column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+footer .column .contactos{
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+footer .column .contactos a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: var(--header-highlight-color);
+    text-decoration: none;
+    font-size: x-large;
+    transition: .2s;
+    border-radius: 30px;
+}
+
+footer .column .contactos i{
+    transition: .2s;
+}
+
+footer .column .contactos a:hover{
+    background-color: var(--bar-highlight-color);
+}
+
+footer .column .contactos a:hover i{
+    color: var(--header-color);
+}
+
+footer h1{
+    font-size: larger;   
+}
+
+footer p{
+    font-size: medium;
+}
+
+@media (max-width: 720px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 15px;
+    }
+
+    footer .column .contactos{
+        width: 90%;
+    }
+}
