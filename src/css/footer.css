@@ -2,6 +2,7 @@
 
 footer{
     height: fit-content;
+    max-width: 100vw;
     background-color: var(--header-color);
     color: var(--header-highlight-color);
     display: grid;

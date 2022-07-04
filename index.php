@@ -28,65 +28,61 @@
             </form>
         </div>
     </div>
-    <h1 class="expandir titulo-seccion">
-        En qué nos destacamos
-    </h1>
     <div id="contenedor-destacados">
-        <div class="destacado rev-1">
-            <div class="frente">
-                <h1>Destacado 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+        <div class="contenedor-destacados">
+            <h1 class="expandir titulo-seccion">
+                En qué nos destacamos
+            </h1>
+            <div class="destacados">
+                <div class="destacado" >
+                    <div class="frente">
+                        <h1 class="expandir">Destacado 1</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                    <div class="frente">
+                        <h1 class="expandir">Destacado 2</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                    <div class="frente">
+                        <h1 class="expandir">Destacado 3</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                    <div class="frente ">
+                        <h1 class="expandir">Destacado 4</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                    <div class="frente ">
+                        <h1 class="expandir">Destacado 5</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                    <div class="frente ">
+                        <h1 class="expandir">Destacado 6</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                    <div class="frente ">
+                        <h1 class="expandir">Destacado 7</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
+                <div class="destacado" >
+                <div class="frente ">
+                        <h1 class="expandir">Destacado 8</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
+                    </div>
+                </div>
             </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 1</div>
-        </div>
-        <div class="destacado rev-1">
-            <div class="frente">
-                <h1>Destacado 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 2</div>
-        </div>
-        <div class="destacado rev-1">
-            <div class="frente">
-                <h1>Destacado 3</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 3</div>
-        </div>
-        <div class="destacado rev-1">
-            <div class="frente ">
-                <h1>Destacado 4</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 4</div>
-        </div>
-        <div class="destacado rev-1">
-            <div class="frente ">
-                <h1>Destacado 5</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 5</div>
-        </div>
-        <div class="destacado rev-1">
-            <div class="frente ">
-                <h1>Destacado 6</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 6</div>
-        </div>
-        <div class="destacado rev-1">
-            <div class="frente ">
-                <h1>Destacado 7</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 7</div>
-        </div>
-        <div class="destacado rev-1">
-        <div class="frente ">
-                <h1>Destacado 7</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis.</p>
-            </div>
-            <div class="contenido ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat similique illo officia, consequatur accusamus! 7</div>
         </div>
     </div>
 </div>

@@ -5,6 +5,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 #servicios .fondo{
