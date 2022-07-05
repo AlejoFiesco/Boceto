@@ -13,7 +13,6 @@ header{
     justify-content: space-between;
 }
 
-
 header img{
     height: var(--header-height);
     filter: invert();

@@ -148,10 +148,13 @@
     padding-left: 10px;
     display: none;
     flex-direction: column;
+    opacity: 0;
+    transition: .2s;
 }
 
 .mostrar{
     display: flex;
+    opacity: 1;
 }
 
 .rotar{
@@ -161,6 +164,7 @@
 
 .oculto{
     display: none;
+    font-size: 130%;
 }
 
 @media screen and (max-width: 720px) {
@@ -175,7 +179,7 @@
     }
 
     #productos #catalogo .producto{
-        height: 200px;
+        height: 250px;
         flex-direction: column;
     }
 

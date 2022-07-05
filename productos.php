@@ -6,7 +6,7 @@
     <span id="mostrarFiltros" class="oculto"><i class="fa-solid fa-gears"></i></span>
     <section id="filtros">
         <h1>Filtros</h1>
-        <span id="cerrarFiltros" class="oculto">Cerrar Filtros</span>
+        <span id="cerrarFiltros" class="oculto">Cerrar</span>
         <div class="revelar-filtro"> marca<i class="fa-solid fa-caret-up"></i></div>
         <div class="filtro mostrar">
             <label ><input type="checkbox" name="" id="" value="Filtro 1">Filtro 1</label>
@@ -40,7 +40,7 @@
     </section>
     <section id="catalogo">
         <div class="producto">
-            <img src="./img/imagen-banner.png" alt="">
+            <img src="./img/producto.jpg" alt="">
             <div class="descripcion">
                 <h1>Titulo del artículo</h1>
                 <table>
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="producto">
-            <img src="./img/imagen-banner.png" alt="">
+            <img src="./img/producto.jpg" alt="">
             <div class="descripcion">
                 <h1>Titulo del artículo</h1>
                 <table>
@@ -80,7 +80,7 @@
             </div>
         </div>
         <div class="producto">
-            <img src="./img/imagen-banner.png" alt="">
+            <img src="./img/producto.jpg" alt="">
             <div class="descripcion">
                 <h1>Titulo del artículo</h1>
                 <table>
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="producto">
-            <img src="./img/imagen-banner.png" alt="">
+            <img src="./img/producto.jpg" alt="">
             <div class="descripcion">
                 <h1>Titulo del artículo</h1>
                 <table>
