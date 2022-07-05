@@ -3,9 +3,10 @@
     include 'includes/header.php';
 ?>
 <div id="productos">
-    <span class="oculto"><i class="fa-solid fa-gears"></i></span>
+    <span id="mostrarFiltros" class="oculto"><i class="fa-solid fa-gears"></i></span>
     <section id="filtros">
         <h1>Filtros</h1>
+        <span id="cerrarFiltros" class="oculto">Cerrar Filtros</span>
         <div class="revelar-filtro"> marca<i class="fa-solid fa-caret-up"></i></div>
         <div class="filtro mostrar">
             <label ><input type="checkbox" name="" id="" value="Filtro 1">Filtro 1</label>

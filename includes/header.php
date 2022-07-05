@@ -1,5 +1,5 @@
 <header>
-    <img src="./img/LogoDefault.png" alt="Logo">
+    <a href="./index.php"><img src="./img/LogoDefault.png" alt="Logo"></a>
     <ul>
         <li> <a href="index.php">Inicio</a> </li>
         <li> <a href="servicios.php">Servicios</a> </li>
