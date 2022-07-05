@@ -1,0 +1,90 @@
+@import url(./global.css);
+
+.formulario{
+    left: 50px;
+    bottom: 10%;
+    background-color: var(--global-bg-color);
+    width: 500px;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formulario .input-group{
+    position: relative;
+}
+
+.formulario label{
+    position: absolute;
+    transform: translateX(10px) translateY(10px);
+    transition: .15s;
+    background-color: var(--global-bg-color);
+}
+
+.formulario .input-group:focus-within label{
+    transform: translateX(0px) translateY(-10px) scale(.8);
+}
+
+.formulario .input-group:focus-within input{
+    border-color: var(--bar-highlight-color);
+    outline: none;
+}
+
+.formulario form input,select{
+    box-sizing: border-box;
+    width: 95%;
+    height: 2rem;
+    text-indent: 15px;
+    font-size: medium;
+    background-color: var(--global-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--bar-highlight-color);
+    background-color: inherit;
+}
+
+.formulario form select{
+    text-indent: 5px;
+}
+
+.formulario form option{
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--header-color);
+}
+
+.formulario form #botonEnviar{
+    width: 100%;
+    background-color: var(--header-color);
+    color: var(--header-highlight-color);
+    transition: .3s;
+    border: none;
+}
+
+.formulario form #botonEnviar:hover{
+    -webkit-box-shadow: 0px -4px 8px -2px rgba(0,0,0,0.65); 
+    box-shadow: 0px -4px 8px -2px rgba(0,0,0,0.65);
+    cursor: pointer;
+    transform: translateY(1px);
+    background-color: var(--header-highlight-background);
+
+}
+
+.formulario form select{
+    margin: 0 auto;
+}
+
+.formulario h1{
+    display: block;
+    margin-top: 15px;
+}

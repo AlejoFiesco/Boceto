@@ -1,0 +1,14 @@
+@import url(./global.css);
+
+#productos{
+    position: relative;
+    width: 100%;
+}
+
+#filtros{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 350px;
+}
